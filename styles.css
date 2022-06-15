@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+h3 {
+    letter-spacing: 5px;
+}
+.st0{fill:url(#SVGID_1_);}
+.st1{fill:url(#SVGID_2_);}
+.st2{fill:url(#SVGID_1_);}
+.st3{fill:url(#SVGID_2_);}
+.st3{fill:url(#SVGID_1_);}
+.st4{fill:url(#SVGID_2_);}
+
+.shape1 {
+    position: absolute;
+    z-index: -1;
+    right: 15%;
+    transform: rotate(40deg);
+}
+.shape2 {
+    position: absolute;
+    z-index: -1;
+    left: 15%;
+    top: 50%;
+}
+.shape3 {
+    position: absolute;
+    z-index: -1;
+    left: 15%;
+    top: -30%;
+    left: 40%;
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #050100;
+    color: #fff;
+}
+.reglas{
+    padding: 0 2rem 2rem 2rem;
+}
+.contenedorPadre{
+    z-index: 2;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    padding: 2rem 2rem 2rem 1rem;
+}
+main {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.visible {
+    display: none;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.valor{
+    height: 30px;
+    width: 10vh;
+    border-radius: 8px;
+    border-style: none;
+}
+input {
+    color: #2e2b2b !important;
+    outline: 0;
+    text-align: center;
+}
+.btn {
+    display: inline;
+    margin: 1rem;
+    width: 15vh;
+    align-items: center;
+    background: rgb(223,254,255);
+    background: linear-gradient(82deg, rgb(171, 224, 226) 18%, rgb(240, 193, 220) 86%);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1em;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+   }
+   
+   .btn:active,
+   .btn:hover {
+    outline: 0;
+   }
+   
+   .btn span {
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   button:hover span {
+    background-color: transparent;
+    color: #606060;
+   }
+   img{
+    margin-top: 1rem;
+    display: block;
+    margin: 0px auto;
+    height: 40vh;
+   }
+   
+   
